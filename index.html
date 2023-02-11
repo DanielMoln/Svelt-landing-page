@@ -8,41 +8,42 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="./fonts/titillium/TitilliumFont.css">
     <title> - </title>
   </head>
   <body>
     <div class="header-bg">
         <img src="images/header_bg.png">
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="backgroundDiv"></div>
+        <div class="container-fluid d-flex justify-content-center">
+            <ul class="nav d-flex justify-content-center justify-text-center">
+                <a class="navbar-brand d-flex align-items-center" href="#" >
+                  <img src="./images/dblock.png" alt="Logo" class="d-inline-block" style="vertical-align: middle; width: 41px; height: 41px;">
+                  <span class="d-inline-block align-text-center">DBLOCK</span>
+                </a>
+                <button class="navbar-toggler align-items-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CHI SIAMO</a>
+                        </li>
+                        <li class="btn-nav">
+                          <button class="contactBtn">CONTATTI</button>
+                        </li>
+                    </ul>
+                </div>
+            </ul>
         </div>
     </nav>
     <div class="fingerprint-block">
