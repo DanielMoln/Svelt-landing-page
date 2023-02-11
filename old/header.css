@@ -1,0 +1,83 @@
+.backgroundDiv{
+    position: absolute;
+
+    left: 0;
+    width: 100%;
+
+    top: 0;
+    height: 100%;
+
+    background-color: black;
+    opacity: 0.5;
+
+    z-index: -1;
+}   
+
+.navbar-brand {
+    margin: 0 !important;
+}
+
+.navbar-brand span{
+    font-family: titillium;
+    font-weight: bold; 
+    font-size: 37px; 
+    margin-left: 8px;
+
+    color: white;
+}
+
+.nav-item a{
+    font-family: titillium;
+    font-weight: bold;
+    font-size: 14px;
+    color: white !important;
+
+    white-space: nowrap;
+}
+
+.contactBtn {
+    font-family: titillium;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0064A1;
+
+    outline: none;
+    border: none;
+
+    background-color: white;
+
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+
+    margin-left: 346px;
+}
+
+.navbar-nav{
+    margin-left: 269px;
+}
+
+@media (max-width: 1199.98px) { 
+    .navbar-nav {
+        margin-left: 134.5px !important;
+    }
+    .navbar-nav > li {
+        float: none !important;
+        display: inline-block !important;
+    }
+    .navbar-nav {
+        float: none !important;
+    }
+    .contactBtn{
+        margin-left: 173px !important;
+    }
+}
+
+@media (max-width: 991.98px){
+    .navbar-nav{
+        margin: 0 !important;
+    }
+    .contactBtn{
+        margin-left: 0 !important;
+    }
+}
