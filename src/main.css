@@ -1,3 +1,7 @@
+body {
+    background-color: #00131e;
+  }
+
 .backgroundDiv{
     position: absolute;
 
@@ -26,14 +30,6 @@
     color: white;
 }
 
-.nav-item a{
-    font-family: titillium;
-    font-weight: bold;
-    font-size: 14px;
-    color: white !important;
-
-    white-space: nowrap;
-}
 
 .contactBtn {
     font-family: titillium;

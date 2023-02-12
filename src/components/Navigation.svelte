@@ -2,7 +2,9 @@
   import logo from "../assets/images/dblock.png";
 </script>
 
-<div class="wrapper d-flex justify-content-between align-items-center">
+<nav
+  class="nav navbar wrapper d-flex justify-content-between align-items-center"
+>
   <div class="container d-flex justify-content-between align-items-center">
     <a class="navbar-brand d-flex align-items-center" href="#">
       <img
@@ -22,7 +24,7 @@
 
     <button class="contactBtn">CONTATTI</button>
   </div>
-</div>
+</nav>
 
 <style>
   .wrapper {
@@ -37,8 +39,13 @@
     margin: 0 10px !important;
     padding: 0 !important;
   }
+
   a {
-    color: #fff !important;
-    font-weight: 900;
+    font-family: titillium;
+    font-weight: bold;
+    font-size: 14px;
+    color: white !important;
+
+    white-space: nowrap;
   }
 </style>
