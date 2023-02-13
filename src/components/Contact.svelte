@@ -51,6 +51,10 @@
     outline: none;
     border: none;
 
+    font-family: titillium;
+    font-weight: bold;
+    font-size: 14px;
+
     background-color: white;
     color: #0064a1;
 
