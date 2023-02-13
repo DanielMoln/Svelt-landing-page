@@ -9,16 +9,20 @@
       <div
         class="row justify-content-center align-self-top align-self-xl-center"
       >
-        <h1 class="col-12 text-center text-xl-left fingerText">
+        <h1 class="col-12 text-center text-xl-left fingerText mt-5 mt-xl-0">
           Gestisci e proteggi i tuoi documenti confidenziali
         </h1>
         <div
           class="col-12 mt-4 ml-xl-4 row d-flex justify-content-center justify-content-xl-start"
         >
-          <div>
-            <button class="scopriBtn mr-3">SCOPRI DI PIù</button>
+          <div
+            class="col-12 col-xl-auto mr-0 mr-xl-3 d-flex justify-content-center padding-side-0"
+          >
+            <button class="scopriBtn">SCOPRI DI PIù</button>
           </div>
-          <div>
+          <div
+            class="col-12 col-xl-auto mt-4 mt-xl-0 d-flex justify-content-center padding-side-0"
+          >
             <img src={appleBtn} alt="Apple" />
           </div>
         </div>
@@ -56,5 +60,9 @@
     width: 122px;
     height: 41px;
     border-radius: 5px;
+  }
+  .padding-side-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 </style>

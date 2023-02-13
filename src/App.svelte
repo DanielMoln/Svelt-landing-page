@@ -17,15 +17,4 @@
 <CopyRight />
 
 <style>
-  * {
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .row {
-    margin: 0 !important;
-  }
-  .padding-side-0 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 </style>
