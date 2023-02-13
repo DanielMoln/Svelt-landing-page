@@ -1,6 +1,6 @@
-body {
-    background-color: #00131e;
-  }
+body{
+    background-color: #00131E;
+}
 
 .backgroundDiv{
     position: absolute;
@@ -15,7 +15,11 @@ body {
     opacity: 0.5;
 
     z-index: -1;
-}   
+}  
+
+.row{
+    padding: 0 !important;
+}
 
 .navbar-brand {
     margin: 0 !important;
@@ -29,7 +33,6 @@ body {
 
     color: white;
 }
-
 
 .contactBtn {
     font-family: titillium;
