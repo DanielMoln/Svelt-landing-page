@@ -54,7 +54,7 @@
             </ul>
           </div>
           <div
-            class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end"
+            class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end padding-side-0"
           >
             <button class="contactBtn">CONTATTI</button>
           </div>
