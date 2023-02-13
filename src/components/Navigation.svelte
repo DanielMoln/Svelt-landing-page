@@ -7,10 +7,10 @@
   style="padding-left: 0 !important; padding-right: 0 !important;"
 >
   <div class="col-md-12 background" />
-  <div class="container padding-side-0">
-    <div class="container padding-side-0">
+  <div class="container">
+    <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 d-flex">
+        <div class="col-12 col-md-4 d-flex ">
           <a
             class="navbar-brand d-flex align-items-center justify-content-end justify-content-md-start col-8 padding-side-0"
             href="#"
@@ -42,7 +42,7 @@
           id="navbarNav"
         >
           <div
-            class="col-12 col-md-6 d-flex justify-content-center align-items-center align-text-center align-items-center"
+            class="col-12 col-md-6 d-flex justify-content-center align-items-center align-text-center"
           >
             <ul
               class="d-md-flex column row-cols-md justify-content-center align-items-center text-center w-100"
@@ -93,9 +93,6 @@
     }
   }
 
-  .wrapper {
-    background-image: url("../assets/images/header_bg.png");
-  }
   ul {
     margin: 0 !important;
     padding: 0 !important;

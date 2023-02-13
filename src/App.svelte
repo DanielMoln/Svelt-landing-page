@@ -24,4 +24,8 @@
   .row {
     margin: 0 !important;
   }
+  .padding-side-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 </style>
