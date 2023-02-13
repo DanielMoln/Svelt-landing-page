@@ -49,7 +49,13 @@
     <div
       class="col-12 col-md-1 order-md-3 d-flex justify-content-center justify-content-md-start mb-3"
     >
-      <img class="align-self-center" src={up} />
+      <img
+        class="align-self-center"
+        src={up}
+        on:click={() => {
+          document.body.scrollIntoView();
+        }}
+      />
     </div>
     <div
       class="col-12 col-md-6 order-md-1 content  justify-content-center justify-content-md-end mb-3"
