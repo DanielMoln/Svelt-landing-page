@@ -4,8 +4,8 @@
 </script>
 
 <div class="fingerground" style="height: 808px;">
-  <div class="container d-flex h-100 align-center">
-    <div class="col-12 col-xl-8 d-flex align-items-start">
+  <div class="container h-100 d-flex align-center">
+    <div class="col-12 col-xl-8 d-flex align-items-start align-center">
       <div
         class="row justify-content-center align-self-top align-self-xl-center"
       >
@@ -36,6 +36,8 @@
 
   .fingerground {
     background-image: url("../assets/images/Esclusione 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .fingerText {
