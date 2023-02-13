@@ -34,8 +34,12 @@
   />
   <FeatureCollection />
 </div>
+
 <Contact />
-<CopyRight />
+
+<div class="col-12 background-blue">
+  <CopyRight />
+</div>
 
 <style>
   .background-blue {
