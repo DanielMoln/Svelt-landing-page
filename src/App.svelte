@@ -32,6 +32,7 @@
     Title="Immediata e intuitiva"
     Content="DBlock non richiede alcuna password per fare in modo che l’applicazione funzioni, poiché è sufficiente usare il proprio Touch ID per sbloccarla. Con questo semplice gesto è possibile criptare tutte le proprie informazioni confidenziali, proteggerle e renderle sicure da attacchi hacker."
   />
+  <FeatureCollection />
 </div>
 <Contact />
 <CopyRight />
